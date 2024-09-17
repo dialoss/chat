@@ -50,7 +50,6 @@ export const authOptions = {
     })
   ],
   pages: {
-    signIn: '/auth/signin',
     resetPassword: '/auth/reset-password',
   },
   secret: process.env.NEXTAUTH_SECRET,
