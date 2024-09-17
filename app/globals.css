@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.loader {
+  width: 120px;
+  height: 20px;
+  background:
+   linear-gradient(#000 0 0) left/20px 20px no-repeat
+   #ddd;
+  animation: l1 1s infinite linear;
+}
+@keyframes l1 {
+    50% {background-position: right }
+}

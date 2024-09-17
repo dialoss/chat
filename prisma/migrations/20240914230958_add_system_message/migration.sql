@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE "Message" ADD COLUMN     "isRead" BOOLEAN NOT NULL DEFAULT false;
+
+-- AlterTable
+ALTER TABLE "MessageReadStatus" ADD COLUMN     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP;
