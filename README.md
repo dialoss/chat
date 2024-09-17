@@ -9,3 +9,5 @@
 + User profiles
 + Typing indicator
 + Credentials + 3 Oauth variants
++ Web push notifications 
++ PWA
