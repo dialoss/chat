@@ -8,3 +8,4 @@
 + Dynamic chats sidebar
 + User profiles
 + Typing indicator
++ Credentials + 3 Oauth variants
